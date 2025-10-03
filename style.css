@@ -1,7 +1,7 @@
 body {
   text-align: center;
   font-family: "Poppins", sans-serif;
-  background-color: indigo;
+  background-color: #272044;
 }
 .container {
   max-width: 1400px;
@@ -49,6 +49,13 @@ header a {
 footer {
   color: white;
   margin-top: 15px;
+  background-image: linear-gradient(
+      rgba(39, 32, 68, 0.9),
+      rgba(39, 32, 68, 0.8)
+    ),
+    url(./images/Trevi-Fountain.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 footer a {
   color: aquamarine;
