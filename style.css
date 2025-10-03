@@ -59,6 +59,9 @@ footer {
   padding: 100px 0;
   text-align: left;
 }
+section {
+  padding: 0 100px;
+}
 footer a {
   color: aquamarine;
 }
@@ -82,7 +85,7 @@ footer li {
 .grid {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
-  grid-gap: 10px;
+  grid-gap: 64px;
 }
 .signature {
   text-align: center;
