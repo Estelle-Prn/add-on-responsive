@@ -123,12 +123,8 @@ footer {
       rgba(39, 32, 68, 0.7),
       rgba(39, 32, 68, 0.8)
     ),
-    url("images/Rome.jpeg");
-  /* background-image: linear-gradient(
-      rgba(39, 32, 68, 0.7),
-      rgba(39, 32, 68, 0.8)
-    ),
-    url(images/colisée-couleurs-italie.jpg);*/
+    url("images/colisée-couleurs-italie.jpg");
+
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
