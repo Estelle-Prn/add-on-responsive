@@ -119,14 +119,16 @@ main h2 {
   text-align: center;
 }
 footer {
-  color: white;
-  background-image: linear-gradient(
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
+    url("images/Rome.jpeg");
+  /* background-image: linear-gradient(
       rgba(39, 32, 68, 0.7),
       rgba(39, 32, 68, 0.8)
     ),
-    url(images/colisée-couleurs-italie.jpg);
+    url(images/colisée-couleurs-italie.jpg);*/
   background-repeat: no-repeat;
   background-size: cover;
+  color: white;
   padding: 80px 50px;
 }
 footer section {
