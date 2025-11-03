@@ -79,6 +79,41 @@ main h2 {
 
 .main-section-2 {
   background-color: #181525;
+  padding: 100px 0;
+}
+.main-section-2 p {
+  font-size: 14px;
+  opacity: 0.7;
+  margin: 0;
+}
+.places-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 0 50px;
+  text-align: left;
+  grid-gap: 20px;
+}
+.card {
+  background-color: #272435;
+}
+.card-text {
+  display: inline-block;
+  padding: 0 30px;
+}
+.card a {
+  background-color: #462cb2;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 16px 32px;
+  display: inline-block;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  letter-spacing: 3px;
+  font-weight: 700;
+  font-size: 14px;
+  width: 80%;
+  text-align: center;
 }
 footer {
   color: white;
