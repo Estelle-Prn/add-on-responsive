@@ -81,6 +81,9 @@ main h2 {
   background-color: #181525;
   padding: 100px 0;
 }
+.main-section-2 h2 {
+  padding-bottom: 50px;
+}
 .main-section-2 p {
   font-size: 14px;
   opacity: 0.7;
