@@ -29,7 +29,6 @@ header h2 {
 header h3 {
   font-size: 24px;
   font-weight: 900;
-  font-style: Black;
   line-height: 100%;
   letter-spacing: 5px;
   margin: 0;
@@ -118,6 +117,26 @@ main h2 {
   width: 80%;
   text-align: center;
 }
+.cards-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.main-section-3 {
+  background-color: #12101d;
+  padding: 100px 0;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  aspect-ratio: 20/9;
+  padding: 100px 50px;
+}
+.gallery img {
+  width: 400px;
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 12px 28px 0px,
+    rgba(255, 255, 255, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
 footer {
   background-image: linear-gradient(
       rgba(39, 32, 68, 0.8),
@@ -148,4 +167,80 @@ footer a {
 footer span {
   display: inline-block;
   padding-top: 50px;
+}
+
+@media (max-width: 960px) {
+  header {
+    padding: 126px 132px;
+  }
+  header h1 {
+    font-size: 42px;
+  }
+  header h2 {
+    font-size: 22px;
+  }
+  header h3 {
+    font-size: 16px;
+  }
+  header a {
+    padding: 12px 28px;
+    margin-top: 28px;
+    font-size: 12px;
+  }
+  .main-section-1 img {
+    width: 500px;
+  }
+  .main-section-1 {
+    grid-template-columns: 1fr;
+    padding: 50px 0;
+  }
+  .main-section-1-text {
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+  .main-section-1 p {
+    font-size: 14px;
+  }
+  main h3 {
+    font-size: 14px;
+  }
+  main h2 {
+    font-size: 34px;
+  }
+  .places-cards {
+    grid-template-columns: 1fr;
+    padding: 0 10px;
+  }
+  .cards-images {
+    width: 300px;
+  }
+  .card {
+    margin: 0 50px;
+  }
+
+  .gallery {
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+    padding: 50px;
+    padding-left: 120px;
+  }
+  .gallery img {
+    width: 300px;
+  }
+  footer {
+    padding: 20px;
+  }
+  footer section {
+    grid-template-columns: 1fr;
+    padding: 0;
+  }
+  footer a {
+    font-size: 14px;
+  }
+  footer p {
+    font-size: 14px;
+  }
+  footer span {
+    font-size: 14px;
+  }
 }
